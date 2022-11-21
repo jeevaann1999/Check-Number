@@ -14,7 +14,7 @@ public class Main {
         temp=a>b?a:b;
         largest=c>temp?c:temp;
         System.out.println("The largest number is: "+largest);
-        return temp;
+        return largest;
     }
 
     public static void smallest()
