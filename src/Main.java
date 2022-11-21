@@ -55,7 +55,7 @@ public class Main {
         return flag;
     }
 
-    public static void EvenOrOdd() {
+    public static void even() {
         Scanner reader = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = reader.nextInt();
