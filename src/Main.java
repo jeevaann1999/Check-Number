@@ -83,6 +83,29 @@ public class Main {
     public static void main(String[] args)
     {
         System.out.println("check number");
+        int option;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Choose your option : 1. LargestOf_3 \n 2. SmallestOf_3 \n 3. Prime \n 4. EvenOrOdd\n 5. Reverse \n 6. Exit");
+        option = sc.nextInt();
+        switch (option) {
+            case 1:
+                largest();
+                break;
+            case 2:
+                smallest();
+                break;
+            case 3:
+                prime();
+                break;
+            case 4:
+                even();
+                break;
+            case 5:
+                Reverse();
+                break;
+            default:
+                System.out.println("Invalid choice");
+        }
     }
 }
 
