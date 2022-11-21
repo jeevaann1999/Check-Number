@@ -65,6 +65,21 @@ public class Main {
             System.out.println(num + " is odd");
     }
 
+    public static void Reverse()
+    {
+        System.out.print("Enter an integer number:");
+        int number = new Scanner(System.in).nextInt();
+        int reverse = 0;
+        int tempNumber = number;
+        while(number > 0)
+        {
+            int remainder = number % 10;
+            reverse = reverse * 10 + remainder;
+            number = number / 10;
+        }
+        System.out.print("The reverse of the given number is = "+reverse);
+    }
+
     public static void main(String[] args)
     {
         System.out.println("check number");
